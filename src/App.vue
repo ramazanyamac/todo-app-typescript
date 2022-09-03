@@ -18,6 +18,7 @@ function deleteTask(id: string): void {
 }
 
 function updateTask(id: string): void {
+  console.log(typeof id);
   todoStore.updateTask(id);
 }
 </script>
